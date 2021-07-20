@@ -34,4 +34,4 @@ Tidy_data$Activity<-recode(Tidy_data$Activity,"'1'='WALKING';'2'='WALKING_UP';'3
 order<-c(2,1,3:ncol(Tidy_data))
 Tidy_data<-Tidy_data[,order]
 write.table(Tidy_data,file="D:/R programming/Getting and cleaning data/tidy data.txt", append = FALSE, sep = "\t",
-            row.names = TRUE, col.names = TRUE)
+            row.names = FALSE, col.names = TRUE)
