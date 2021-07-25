@@ -20,7 +20,7 @@ SubjectID    An identifier of the subject who carried out the activity.Its range
              Subject IDs: 1-30  
 
 Features     The features obtained from the 3-axial raw signals from the accelerometer and gyroscope. The time domain and frequency domain signals are denoted by the prefixes 't' and 'f' 
-             respectively.'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. 
+             respectively.'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. Acc - accelerometer, Gyro - gyroscope, Mag - magnitude
 
 	         List of features:
              tBodyAcc-XYZ
